@@ -9,7 +9,7 @@
         <Filename Value="MonitorAcoes.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="54" Y="7"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -18,8 +18,10 @@
         <ComponentName Value="fmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <UsageCount Value="24"/>
+        <CursorPos X="40" Y="17"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -29,7 +31,7 @@
         <UnitName Value="Ticker"/>
         <EditorIndex Value="4"/>
         <CursorPos Y="75"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -38,7 +40,7 @@
         <UnitName Value="GlobalCefApplication"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="6"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="29"/>
       </Unit>
       <Unit>
         <Filename Value="panelticker.pas"/>
@@ -47,11 +49,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PanelTicker"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="30"/>
-        <CursorPos X="5" Y="63"/>
-        <UsageCount Value="23"/>
+        <TopLine Value="10"/>
+        <CursorPos Y="43"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -60,12 +61,12 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="200"/>
         <CursorPos X="3" Y="218"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
         <EditorIndex Value="6"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="15"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -73,13 +74,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="648"/>
         <CursorPos X="4" Y="650"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-json\src\fpjson.pp"/>
         <EditorIndex Value="5"/>
         <CursorPos X="43" Y="5"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="15"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -87,14 +88,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3221"/>
         <CursorPos X="3" Y="3223"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="constants.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="3"/>
         <CursorPos X="64" Y="9"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -102,42 +103,10 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="225"/>
         <CursorPos Y="242"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="panelticker.pas"/>
-        <Caret Line="37" TopLine="8"/>
-      </Position>
-      <Position>
-        <Filename Value="panelticker.pas"/>
-        <Caret Line="33" TopLine="8"/>
-      </Position>
-      <Position>
-        <Filename Value="panelticker.pas"/>
-        <Caret Line="38" TopLine="8"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="65" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="68" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="70" Column="5" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="25" Column="39" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="75" Column="44" TopLine="48"/>
-      </Position>
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="76" Column="44" TopLine="48"/>
@@ -225,6 +194,37 @@
       <Position>
         <Filename Value="panelticker.pas"/>
         <Caret Line="20" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="63" Column="5" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="42" Column="16" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="63" Column="5" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="29" Column="58"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="98" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="85" Column="7" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="84" Column="7" TopLine="65"/>
       </Position>
     </JumpHistory>
     <RunParams>

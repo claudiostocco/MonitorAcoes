@@ -40,24 +40,4 @@ begin
   Show;
 end;
 
-initialization
-  {$IFDEF DARWIN}  // $IFDEF MACOSX
-  AddCrDelegate;
-  {$ENDIF}
-  if GlobalCEFApp = nil then begin
-    CreateGlobalCEFApp;
-    if not GlobalCEFApp.StartMainProcess then begin
-      DestroyGlobalCEFApp;
-      DestroyGlobalCEFWorkScheduler;
-      halt(0); // exit the subprocess
-    end;
-  end;
-
-finalization
-  (* Destroy from this unit, which is used after "Interfaces". So this happens before the Application object is destroyed *)
-  if GlobalCEFWorkScheduler <> nil then
-    GlobalCEFWorkScheduler.StopScheduler;
-  DestroyGlobalCEFApp;
-  DestroyGlobalCEFWorkScheduler;
-
 end.

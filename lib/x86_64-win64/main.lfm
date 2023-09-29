@@ -1,9 +1,0 @@
-object fmMain: TfmMain
-  Left = 350
-  Height = 424
-  Top = 250
-  Width = 1346
-  FormStyle = fsMDIForm
-  OnShow = FormShow
-  LCLVersion = '2.2.6.0'
-end

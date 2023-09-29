@@ -5,7 +5,7 @@ unit main;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, fgl, GlobalCefApplication, constants, Ticker, PanelTicker;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, fgl, constants, Ticker, PanelTicker;
 
 type
   TfmPanelTickerList = specialize TFPGObjectList<TfmPanelTicker>;
@@ -27,7 +27,7 @@ var
 
 implementation
 
-uses RESTRequest4D;
+uses RESTRequest4D, uCEFApplication, uCEFWorkScheduler, GlobalCefApplication;
 
 {$R *.lfm}
 
@@ -74,5 +74,25 @@ begin
   child.Width := Width div 2;
   child.Left := child.Width * (index mod 2);
 end;
+
+initialization
+  {$IFDEF DARWIN}  // $IFDEF MACOSX
+  AddCrDelegate;
+  {$ENDIF}
+  if GlobalCEFApp = nil then begin
+    CreateGlobalCEFApp;
+    if not GlobalCEFApp.StartMainProcess then begin
+      DestroyGlobalCEFApp;
+      DestroyGlobalCEFWorkScheduler;
+      halt(0); // exit the subprocess
+    end;
+  end;
+
+finalization
+  (* Destroy from this unit, which is used after "Interfaces". So this happens before the Application object is destroyed *)
+  if GlobalCEFWorkScheduler <> nil then
+    GlobalCEFWorkScheduler.StopScheduler;
+  DestroyGlobalCEFApp;
+  DestroyGlobalCEFWorkScheduler;
 
 end.
