@@ -72,7 +72,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="MonitorAcoes"/>
+      <Filename Value="build\$(TargetOS)\MonitorAcoes"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
