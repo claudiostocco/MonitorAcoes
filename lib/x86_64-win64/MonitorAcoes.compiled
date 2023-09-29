@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq -FiD:\Projetos\lazarus\MonitorAcoes\lib\x86_64-win64 -FuD:\Projetos\lazarus\RESTRequest4Delphi\src -FuD:\Projetos\lazarus\CEF4Delphi-116.0.5845.190\packages\lib\x86_64-win64 -FuC:\lazarus\components\ideintf\units\x86_64-win64\win32 -FuC:\lazarus\components\lazcontrols\lib\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\freetype\lib\x86_64-win64 -FuC:\lazarus\components\buildintf\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\Users\dev203\AppData\Local\lazarus\onlinepackagemanager\packages\DCPcrypt\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuD:\Projetos\lazarus\MonitorAcoes\ -FUD:\Projetos\lazarus\MonitorAcoes\lib\x86_64-win64\ -FED:\Projetos\lazarus\MonitorAcoes\ -oD:\Projetos\lazarus\MonitorAcoes\MonitorAcoes.exe -dLCL -dLCLwin32 MonitorAcoes.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
