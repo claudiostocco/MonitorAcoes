@@ -62,8 +62,8 @@ begin
       Fticker := value.GetPath('ticker').Value;
     if value.FindPath('price') <> nil then
       Fprice := value.GetPath('price').AsFloat;
-    if value.FindPath('ceilingPrice') <> nil then
-      FceilingPrice := value.GetPath('ceilingPrice').AsFloat;
+    if value.FindPath('ceiling_price') <> nil then
+      FceilingPrice := value.GetPath('ceiling_price').AsFloat;
 		end;
 end;
 
