@@ -8,36 +8,67 @@ object fmPanelTicker: TfmPanelTicker
   ClientHeight = 450
   ClientWidth = 800
   FormStyle = fsMDIChild
+  OnResize = FormResize
   LCLVersion = '2.2.6.0'
   object pnCotacao: TPanel
     Left = 0
     Height = 450
     Top = 0
-    Width = 700
+    Width = 710
     Align = alClient
     BevelInner = bvLowered
     BevelOuter = bvNone
     Caption = 'pnCotacao'
     ClientHeight = 450
-    ClientWidth = 700
+    ClientWidth = 710
     TabOrder = 0
     object bwCotacao: TBrowserWindow
       Left = 1
       Height = 448
       Top = 1
       Width = 698
-      Align = alClient
       TabOrder = 0
+      Chromium.OnLoadEnd = ChromiumLoadEnd
+      Chromium.OnBeforeBrowse = ChromiumBeforeBrowse
     end
   end
   object pnInfo: TPanel
-    Left = 700
+    Left = 710
     Height = 450
     Top = 0
-    Width = 100
+    Width = 90
     Align = alRight
     BorderStyle = bsSingle
-    Caption = 'Informações'
+    ChildSizing.TopBottomSpacing = 20
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ClientHeight = 446
+    ClientWidth = 86
+    ParentFont = False
     TabOrder = 1
+    object Label1: TLabel
+      Left = 4
+      Height = 17
+      Top = 20
+      Width = 50
+      AutoSize = False
+      Caption = 'Label1'
+      Font.Height = -13
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 4
+      Height = 21
+      Top = 41
+      Width = 50
+      Alignment = taCenter
+      AutoSize = False
+      BorderSpacing.Around = 4
+      Caption = 'Label2'
+      Font.Height = -16
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
   end
 end

@@ -16,8 +16,7 @@ uses
   Interfaces, // this includes the LCL widgetset
   Forms,
   main,
-  Ticker, GlobalCefApplication, PanelTicker, constants
-  { you can add units after this };
+  Ticker, GlobalCefApplication, PanelTicker, constants;
 
 {$R *.res}
 

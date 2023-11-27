@@ -59,6 +59,7 @@ var i: Integer;
 begin
   if tickers.Count > 0 then
     panelList := TfmPanelTickerList.Create;
+  //for i := 0 to 1 do
   for i := 0 to tickers.Count-1 do
   begin
     //ShowMessage(TTicker(tickers.Items[i]).ticker);

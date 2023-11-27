@@ -8,8 +8,8 @@
       <Unit>
         <Filename Value="MonitorAcoes.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="54" Y="7"/>
-        <UsageCount Value="44"/>
+        <CursorPos Y="28"/>
+        <UsageCount Value="55"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,9 +19,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="31"/>
-        <CursorPos X="19" Y="45"/>
-        <UsageCount Value="44"/>
+        <CursorPos X="16" Y="58"/>
+        <UsageCount Value="55"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -29,20 +28,21 @@
         <Filename Value="ticker.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Ticker"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="54"/>
-        <CursorPos X="21" Y="70"/>
-        <UsageCount Value="44"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="19" Y="64"/>
+        <UsageCount Value="55"/>
       </Unit>
       <Unit>
         <Filename Value="globalcefapplication.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="GlobalCefApplication"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="27" Y="6"/>
-        <UsageCount Value="43"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="82"/>
+        <CursorPos X="16" Y="85"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="panelticker.pas"/>
@@ -51,10 +51,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PanelTicker"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="21"/>
-        <CursorPos X="34" Y="50"/>
-        <UsageCount Value="43"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="46"/>
+        <UsageCount Value="54"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -63,136 +63,209 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="64" Y="9"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="51"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uHelperProcessDom.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="65" Y="78"/>
+        <UsageCount Value="25"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\classesh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="200"/>
         <CursorPos X="3" Y="218"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="14"/>
+        <UsageCount Value="13"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\classes\lists.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="648"/>
         <CursorPos X="4" Y="650"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-json\src\fpjson.pp"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="43" Y="5"/>
-        <UsageCount Value="14"/>
+        <UsageCount Value="13"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3221"/>
         <CursorPos X="3" Y="3223"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFApplication.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="225"/>
         <CursorPos Y="242"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFChromiumCore.pas"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="185"/>
-        <CursorPos X="18" Y="199"/>
-        <UsageCount Value="9"/>
+        <TopLine Value="7554"/>
+        <CursorPos X="66" Y="7556"/>
+        <UsageCount Value="11"/>
+        <Bookmarks Count="1">
+          <Item0 Y="7561" ID="1"/>
+        </Bookmarks>
       </Unit>
       <Unit>
         <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFChromiumEvents.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="72"/>
         <CursorPos X="14" Y="88"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="173"/>
-        <CursorPos Y="191"/>
-        <UsageCount Value="16"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1857"/>
+        <CursorPos X="15" Y="1873"/>
+        <UsageCount Value="19"/>
         <Bookmarks Count="1">
           <Item0 X="18" Y="1922" ID="1"/>
         </Bookmarks>
-        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFFrame.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="168"/>
+        <CursorPos Y="187"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFMiscFunctions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="377"/>
+        <CursorPos Y="399"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFBaseRefCounted.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="242"/>
+        <CursorPos Y="261"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFBrowserWindow.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="36" Y="49"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFChromium.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="3" Y="47"/>
+        <UsageCount Value="11"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="15">
+    <JumpHistory HistoryIndex="22">
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="42" Column="19" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="1838" Column="15" TopLine="1821"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="1776" Column="3" TopLine="1758"/>
+        <Caret Line="52" TopLine="32"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="18" Column="13" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="677" Column="3" TopLine="659"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="10961" Column="5" TopLine="10927"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="1838" Column="15" TopLine="1822"/>
+        <Caret Line="47" TopLine="31"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="50" Column="9" TopLine="29"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="1922" Column="19" TopLine="1896"/>
+        <Caret Line="54" TopLine="31"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="50" Column="9" TopLine="29"/>
-      </Position>
-      <Position>
-        <Filename Value="..\CEF4Delphi-116.0.5845.190\source\uCEFInterfaces.pas"/>
-        <Caret Line="1922" Column="18" TopLine="1902"/>
+        <Caret Line="52" TopLine="31"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="46" TopLine="29"/>
+        <Caret Line="54" TopLine="31"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="54" Column="33" TopLine="33"/>
+        <Caret Line="52" TopLine="31"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="51" TopLine="22"/>
+        <Caret Line="54" TopLine="31"/>
       </Position>
       <Position>
         <Filename Value="panelticker.pas"/>
-        <Caret Line="47" TopLine="25"/>
+        <Caret Line="50" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="64" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="55" Column="27" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="55" TopLine="39"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="79" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="78" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="79" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="80" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="84" Column="32" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="90" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="68" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="69" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="68" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="69" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="panelticker.pas"/>
+        <Caret Line="70" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="globalcefapplication.pas"/>
+        <Caret Line="54" Column="39" TopLine="30"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -206,8 +279,15 @@
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
-        <Source Value="ticker.pas"/>
-        <Line Value="59"/>
+        <Source Value="uHelperProcessDom.pas"/>
+        <Line Value="106"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uHelperProcessDom.pas"/>
+        <Line Value="78"/>
       </Item>
     </BreakPoints>
   </Debugging>
