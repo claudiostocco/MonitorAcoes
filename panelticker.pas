@@ -54,6 +54,8 @@ end;
 
 procedure TfmPanelTicker.ChromiumLoadEnd(Sender: TObject;	const browser: ICefBrowser; const frame: ICefFrame; httpStatusCode: Integer);
 begin
+  frame.ExecuteJavaScript('document.querySelector("section header").remove()','',0);
+  frame.ExecuteJavaScript('document.querySelector(''section section div > button[data-test="view-toggler"]'').parentElement.remove()','',0);
   frame.ExecuteJavaScript('document.getElementById("guce-inline-consent-iframe").remove()','',0);
   frame.ExecuteJavaScript('document.getElementsByTagName("footer").item(document.getElementsByTagName("footer").length-1).previousElementSibling.remove()','',0);
   frame.ExecuteJavaScript('document.getElementsByTagName("footer").item(document.getElementsByTagName("footer").length-1).remove()','',0);
@@ -63,8 +65,8 @@ end;
 
 procedure TfmPanelTicker.FormResize(Sender: TObject);
 begin
-  bwCotacao.Width := Width - pnInfo.Width-5;
-  bwCotacao.Height := Height+135;
+  bwCotacao.Width := Width - pnInfo.Width-2;
+  bwCotacao.Height := Height+175;
 end;
 
 procedure TfmPanelTicker.ChromiumBeforeBrowse(Sender: TObject;
